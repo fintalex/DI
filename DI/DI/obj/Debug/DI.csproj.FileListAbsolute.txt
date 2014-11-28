@@ -1,0 +1,6 @@
+c:\users\s.harchenko\documents\visual studio 2012\Projects\DI\DI\bin\Debug\DI.exe.config
+c:\users\s.harchenko\documents\visual studio 2012\Projects\DI\DI\bin\Debug\DI.exe
+c:\users\s.harchenko\documents\visual studio 2012\Projects\DI\DI\bin\Debug\DI.pdb
+c:\users\s.harchenko\documents\visual studio 2012\Projects\DI\DI\obj\Debug\DI.csprojResolveAssemblyReference.cache
+c:\users\s.harchenko\documents\visual studio 2012\Projects\DI\DI\obj\Debug\DI.exe
+c:\users\s.harchenko\documents\visual studio 2012\Projects\DI\DI\obj\Debug\DI.pdb
