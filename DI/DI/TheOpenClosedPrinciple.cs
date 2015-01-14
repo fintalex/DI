@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DI
+namespace TheOpenClosedPrinciple
 {
     // простой приницип нарушения открытости закрытости -  использование конкретный объектов без абстакций
     public class Logger
@@ -55,4 +55,43 @@ namespace DI
             logger.Log(string.Format("Sent '{0}'", message));
         }
     }
+}
+
+// напомощь приходит выделение интерфейса ILogger
+namespace TheOpenClosedPrinciple2
+{
+    public interface ILogger
+    {
+        void Log(string logText);
+    }
+    public class Logger : ILogger
+    {
+        public void Log(string logText)
+        {
+            // сохранить лог в файл
+        }
+    }
+    public class DatabaseLogger : ILogger
+    {
+        public void Log(string logText)
+        {
+            // сохранить лог в базу
+        }
+    }
+
+    public class SmtpMailer
+    {
+        private readonly ILogger logger;
+        public SmtpMailer(ILogger logger)
+        {
+            this.logger = logger;
+        }
+        public void SendMessage(string message)
+        {
+            logger.Log("sent " + message);
+        }
+    }
+    // теперь мы можем логировать куда хотим, просто допишем новый класс
+
+
 }
