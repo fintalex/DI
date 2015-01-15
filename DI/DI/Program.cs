@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 //using DependencyInversion;
+//using TheInterfaceSegregationPrinciple3;
 
 namespace SOLID
 {
@@ -23,7 +24,12 @@ namespace SOLID
 
             //Console.ReadLine();
 
-            // ===========================================  DependencyInversion   =============================================================
+			//// ===========================================  TheInterfaceSegregationPrinciple 2-3   =============================================================
+			//ProductAuditor pa = new ProductAuditor();
+			//pa.AuditEntityFieldSet();
+
+			//AccountAuditor aa = new AccountAuditor();
+			//aa.AuditEntityFieldSet();
 		}
 	}
 

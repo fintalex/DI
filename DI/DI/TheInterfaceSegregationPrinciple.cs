@@ -74,3 +74,47 @@ namespace TheInterfaceSegregationPrinciple2
 
 
 }
+
+// а теперь решение
+// а в данном случае решение простое - в C# мы можем заменить abstract на virtual
+// и тогда наследники не обязаны переопределять этот метод
+// но ему надо будет написать какую-нибудь реализацию в базовом методе
+namespace TheInterfaceSegregationPrinciple3
+{
+	// пример с лишней абстракцией в наследовании
+	public abstract class EntityAuditor
+	{
+		public void AuditEntityFieldSet()
+		{
+			CreateLogRow();
+			UpdateDuplicates();
+		}
+		protected abstract string CreateLogRow();
+		protected virtual void UpdateDuplicates()
+		{ }
+	}
+
+	// после того как в базовом классе появился новый абстрактный метод
+	// его должны переопределить все наследники классы
+	public class ProductAuditor : EntityAuditor
+	{
+		protected override string CreateLogRow()
+		{
+			return "Делаем лог по продукту";
+		}
+		protected override void UpdateDuplicates()
+		{
+			// выполняем какие то действия 
+		}
+	}
+	// и те же самые методы мы должны переопределить в другом наследнике
+	public class AccountAuditor : EntityAuditor
+	{
+		protected override string CreateLogRow()
+		{
+			return "Делаем лог по аккаунту";
+		}
+	}
+
+
+}
