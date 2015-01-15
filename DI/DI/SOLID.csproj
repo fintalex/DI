@@ -41,11 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DependencyInversion.cs" />
+    <Compile Include="D\DependencyInversion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TheInterfaceSegregationPrinciple.cs" />
-    <Compile Include="TheOpenClosedPrinciple.cs" />
+    <Compile Include="I\TheInterfaceSegregationPrinciple.cs" />
+    <Compile Include="O\TheOpenClosedPrinciple.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
