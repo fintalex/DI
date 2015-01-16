@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="D\DependencyInversion.cs" />
+    <Compile Include="I\FatInterface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="I\TheInterfaceSegregationPrinciple.cs" />
