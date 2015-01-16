@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 //using DependencyInversion;
 //using TheInterfaceSegregationPrinciple3;
+//using GoodDisignMustBeSOLID2;
 
 namespace SOLID
 {
@@ -30,6 +31,16 @@ namespace SOLID
 
 			//AccountAuditor aa = new AccountAuditor();
 			//aa.AuditEntityFieldSet();
+
+			////// ===========================================  GoodDisignMustBeSOLID2 2  =============================================================
+			//HttpServiceClient httpsc = new HttpServiceClient();
+			//BufferingHttpServiceClient buffersc = new BufferingHttpServiceClient();
+			//// видим только один мтеод
+			//httpsc.SendData(new object()); 
+			//// видим оба метода
+			//buffersc.SendData(new object());
+			//buffersc.Flush(); 
+
 		}
 	}
 
