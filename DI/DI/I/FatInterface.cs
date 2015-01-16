@@ -62,3 +62,34 @@ namespace FatInterface
 	// на прийдется изменять все классы которые уже реализовали этот интерфейс ISpecification.
 	// например, если мы захотим добавить новый параметр в IsSutable!!!
 }
+
+
+// ВЫВОД:  если клиенты интерфейса разделены, то и интерфейсы должны быть разделены
+namespace FatInterface2
+{
+	public interface ISpecification
+	{
+		bool IsSutable(String product, String offer);
+	}
+	public interface IChangedFieldDetector
+	{
+		bool IsFieldChanged(String product, String newValue);
+	}
+
+	// теперь сделаем так чтобы консольное приложение работало со своим интерфейсом
+	// а хранилище работало со своим
+	public class PriceSpecification : ISpecification
+	{
+		public bool IsSutable(string product, string offer)
+		{
+			throw new NotImplementedException();
+		}
+	}
+	public class PriceChabhedFieldDetector : IChangedFieldDetector
+	{
+		public bool IsFieldChanged(string product, string newValue)
+		{
+			throw new NotImplementedException();
+		}
+	}
+}
