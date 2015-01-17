@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="D\DependencyInversion.cs" />
+    <Compile Include="D\StrongCoupling.cs" />
     <Compile Include="I\FatInterface.cs" />
     <Compile Include="I\GoodDisignMustBeSOLID.cs" />
     <Compile Include="Program.cs" />
