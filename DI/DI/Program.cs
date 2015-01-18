@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 //using DependencyInversion;
 //using TheInterfaceSegregationPrinciple3;
 //using GoodDisignMustBeSOLID2;
-using StrongCoupling;
+//using StrongCoupling;
+using StrongCoupling2;
 
 namespace SOLID
 {
@@ -43,9 +44,17 @@ namespace SOLID
 			//buffersc.Flush(); 
             
             //// ===========================================  StrongCoupling  =============================================================
-            var builder = new ReportBuilder();
-            var sender = new EmailReportSender();
-            var reporter = new Reporter(builder, sender);
+            //var builder = new ReportBuilder();
+            //var sender = new EmailReportSender();
+            //var reporter = new Reporter(builder, sender);
+            //reporter.SendReports();
+
+            //// ===========================================  StrongCoupling 2 =============================================================
+            // Для начала зарегистрируем связи
+            ServiceLocator.RegisterService<IReportBuilder>(typeof(ReportBuilder));
+            ServiceLocator.RegisterService<IReportSender>(typeof(EmailReportSender));
+
+            var reporter = new Reporter();
             reporter.SendReports();
 		}
 	}
