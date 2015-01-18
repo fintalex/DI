@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 //using DependencyInversion;
 //using TheInterfaceSegregationPrinciple3;
 //using GoodDisignMustBeSOLID2;
+using StrongCoupling;
 
 namespace SOLID
 {
@@ -40,7 +41,12 @@ namespace SOLID
 			//// видим оба метода
 			//buffersc.SendData(new object());
 			//buffersc.Flush(); 
-
+            
+            //// ===========================================  StrongCoupling  =============================================================
+            var builder = new ReportBuilder();
+            var sender = new EmailReportSender();
+            var reporter = new Reporter(builder, sender);
+            reporter.SendReports();
 		}
 	}
 

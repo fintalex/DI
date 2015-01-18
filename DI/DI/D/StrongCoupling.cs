@@ -45,4 +45,24 @@ namespace StrongCoupling
 
     // теперь если мы хотим отпаравлять отчеты через Sms - 
     // надо просто создать класс реализующий интерфейс - и передавать его в конструктор Reporter
+    public class ReportBuilder : IReportBuilder
+    {
+        public IList<Report> CreateReports()
+        {
+            List<Report> repList = new List<Report>();
+            return repList;
+        }
+    }
+    public class EmailReportSender : IReportSender
+    {
+        public void Send(Report report)
+        {
+            // doing something for sending email
+        }
+    }
+
+
+
+ 
+
 }
