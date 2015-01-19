@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 //using TheInterfaceSegregationPrinciple3;
 //using GoodDisignMustBeSOLID2;
 //using StrongCoupling;
-using StrongCoupling2;
+//using StrongCoupling2;
+//using RectangleExample;
 
 namespace SOLID
 {
@@ -49,13 +50,21 @@ namespace SOLID
             //var reporter = new Reporter(builder, sender);
             //reporter.SendReports();
 
-            //// ===========================================  StrongCoupling 2 =============================================================
-            // Для начала зарегистрируем связи
-            ServiceLocator.RegisterService<IReportBuilder>(typeof(ReportBuilder));
-            ServiceLocator.RegisterService<IReportSender>(typeof(EmailReportSender));
+			////// ===========================================  StrongCoupling2 =============================================================
+			//// Для начала зарегистрируем связи
+			//ServiceLocator.RegisterService<IReportBuilder>(typeof(ReportBuilder));
+			//ServiceLocator.RegisterService<IReportSender>(typeof(EmailReportSender));
 
-            var reporter = new Reporter();
-            reporter.SendReports();
+			//var reporter = new Reporter();
+			//reporter.SendReports();
+
+			////// ===========================================  RectangleExample =============================================================
+			//Rectangle r = new Square();
+			//r.Width = 3;
+			//r.Height = 2;
+			//// и вот тут возникает неприятность - area = 4.  Надо разобраться в чем проблема
+			//int area = r.CalculateRectangleArea();
+
 		}
 	}
 
