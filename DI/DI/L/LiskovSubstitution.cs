@@ -89,6 +89,7 @@ namespace LiskovSubstitution
 	}
 }
 
+// правильно
 namespace LiskovSubstitution2
 {
 	public interface IDoubleList<T>
