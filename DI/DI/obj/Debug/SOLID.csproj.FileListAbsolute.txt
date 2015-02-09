@@ -9,4 +9,3 @@ C:\Users\Алексей\Documents\GitHub\DI\DI\DI\obj\Debug\DI.pdb
 C:\Users\Алексей\Documents\GitHub\DI\DI\DI\bin\Debug\DI.exe
 C:\Users\Алексей\Documents\GitHub\DI\DI\DI\bin\Debug\DI.pdb
 C:\Users\Алексей\Documents\GitHub\DI\DI\DI\obj\Debug\SOLID.csprojResolveAssemblyReference.cache
-C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\DI\obj\Debug\SOLID.csprojResolveAssemblyReference.cache
