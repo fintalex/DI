@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "DI\SOLID.csproj", "{C79349D0-E1C0-4D54-940D-4C12920A7C4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgilePrinciplesPatterns", "AgilePrinciplesPatterns\AgilePrinciplesPatterns.csproj", "{5814D744-210E-4C90-BEC8-95801A642BC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +15,10 @@ Global
 		{C79349D0-E1C0-4D54-940D-4C12920A7C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C79349D0-E1C0-4D54-940D-4C12920A7C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C79349D0-E1C0-4D54-940D-4C12920A7C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5814D744-210E-4C90-BEC8-95801A642BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5814D744-210E-4C90-BEC8-95801A642BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5814D744-210E-4C90-BEC8-95801A642BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5814D744-210E-4C90-BEC8-95801A642BC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
