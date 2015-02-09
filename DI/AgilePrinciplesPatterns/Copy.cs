@@ -49,6 +49,69 @@ namespace AgilePrinciplesPatterns
 		}
 	}
 
+
+	// ============= это условный вспомогательный код
+	public static class Print
+	{
+		public static void Write(int c)
+		{
+			// типа печатаем
+		}
+	}
+	public static class Keyboard
+	{
+		public static int Read()
+		{
+			int c = 0;
+			return c;
+		}
+	}
+	public static class PaperTape
+	{
+		public static int Read()
+		{
+			int c = 0;
+			return c;
+		}
+		public static void Punch(int c)
+		{
+			// типа печатаем
+		}
+	}
+}
+
+// а теперь гибкий вариант
+namespace AgilePrinciplesPatterns2
+{
+	//============================== начнем с первого этапа =============================
+	// программу, которая выводит непосредственно на принтер текст, вводимый с клавиатуры
+	public interface Reader
+	{
+		int Read();
+	}
+	public class KeyboaredReader : Reader
+	{
+		public int Read()
+		{
+			return Keyboard.Read();
+		}
+	}
+	public class Copier
+	{
+		public static Reader reader = new KeyboaredReader();
+		public static void Copy()
+		{
+			int c;
+			while ((c = (reader.Read())) != -1)
+				Print.Write(c);
+		}
+	}
+	// в данном случае мы применили принцип открытости\закрытости 
+	// проектирование модулей так чтобы их можно было расширять без модификаций
+
+
+	// ============= это условный вспомогательный код
+
 	public static class Print
 	{
 		public static void Write(int c)
