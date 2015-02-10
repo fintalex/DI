@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "DI\SOLID.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgilePrinciplesPatterns", "AgilePrinciplesPatterns\AgilePrinciplesPatterns.csproj", "{5814D744-210E-4C90-BEC8-95801A642BC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling", "Bowling\Bowling.csproj", "{B36B9F9D-78CD-421C-BEC4-A152B3549FB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{5814D744-210E-4C90-BEC8-95801A642BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5814D744-210E-4C90-BEC8-95801A642BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5814D744-210E-4C90-BEC8-95801A642BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36B9F9D-78CD-421C-BEC4-A152B3549FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36B9F9D-78CD-421C-BEC4-A152B3549FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36B9F9D-78CD-421C-BEC4-A152B3549FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36B9F9D-78CD-421C-BEC4-A152B3549FB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
