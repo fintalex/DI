@@ -8,10 +8,10 @@ using NUnit.Framework;
 [TestFixture]
 public class ThrowTest
 {
-	[Test]
-	public void Test
-	{ 
+	//[Test]
+	//public void Test
+	//{ 
 
-	}
+	//}
 }
 

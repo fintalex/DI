@@ -1,0 +1,9 @@
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\BowlingTests\obj\Debug\BowlingTests.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\BowlingTests\bin\Debug\BowlingTests.dll
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\BowlingTests\bin\Debug\BowlingTests.pdb
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\BowlingTests\bin\Debug\Bowling.exe
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\BowlingTests\bin\Debug\nunit.framework.dll
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\BowlingTests\bin\Debug\Bowling.pdb
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\BowlingTests\bin\Debug\nunit.framework.xml
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\BowlingTests\obj\Debug\BowlingTests.dll
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\BowlingTests\obj\Debug\BowlingTests.pdb

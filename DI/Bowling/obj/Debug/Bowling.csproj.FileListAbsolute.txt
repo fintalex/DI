@@ -1,0 +1,7 @@
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\bin\Debug\Bowling.exe.config
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\bin\Debug\Bowling.exe
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\bin\Debug\Bowling.pdb
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\bin\Debug\nunit.framework.dll
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\bin\Debug\nunit.framework.xml
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\obj\Debug\Bowling.exe
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\obj\Debug\Bowling.pdb

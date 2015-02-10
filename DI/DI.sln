@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgilePrinciplesPatterns", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling", "Bowling\Bowling.csproj", "{B36B9F9D-78CD-421C-BEC4-A152B3549FB9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BowlingGame", "BowlingGame", "{77FFF2A5-D1C1-4C73-95E4-B4081152583F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingTests", "BowlingTests\BowlingTests.csproj", "{D4B6A2CA-B016-4A78-AFA1-1D42816A62C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,8 +29,16 @@ Global
 		{B36B9F9D-78CD-421C-BEC4-A152B3549FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B36B9F9D-78CD-421C-BEC4-A152B3549FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B36B9F9D-78CD-421C-BEC4-A152B3549FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B6A2CA-B016-4A78-AFA1-1D42816A62C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B6A2CA-B016-4A78-AFA1-1D42816A62C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B6A2CA-B016-4A78-AFA1-1D42816A62C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B6A2CA-B016-4A78-AFA1-1D42816A62C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B36B9F9D-78CD-421C-BEC4-A152B3549FB9} = {77FFF2A5-D1C1-4C73-95E4-B4081152583F}
+		{D4B6A2CA-B016-4A78-AFA1-1D42816A62C3} = {77FFF2A5-D1C1-4C73-95E4-B4081152583F}
 	EndGlobalSection
 EndGlobal
