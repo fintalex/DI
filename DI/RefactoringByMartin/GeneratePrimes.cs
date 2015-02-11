@@ -37,48 +37,39 @@ namespace RefactoringByMartin
 		/// </summary>
 		/// <param name="maxValue"></param>
 		/// <returns></returns>
-		public static int[] GeneratePrimeNembers(int maxValue)
+		public static int[] GeneratePrimeNumbers(int maxValue)
 		{
 			if (maxValue >= 2) // единственный допустимый случай
 			{
-				// объявление
+				// объявления
 				int s = maxValue + 1; // размер массива
 				bool[] f = new bool[s];
 				int i;
-
-				//инициализировать элементы массива значением true
+				// инициализировать элементы массива значением true.
 				for (i = 0; i < s; i++)
-				{
 					f[i] = true;
-				}
-
-				// исключение заведомо не простых чисел
+				// исключить заведомо не простые числа
 				f[0] = f[1] = false;
-
 				// решето
 				int j;
-				for (i = 0; i < Math.Sqrt(s) + 1; i++)
+				for (i = 2; i < Math.Sqrt(s) + 1; i++)
 				{
-					if (f[i]) // если i не вычеркнуто, высеркнуть его кратные
+					if (f[i]) // если i не вычеркнуто, вычеркнуть его кратные.
 					{
-						for (j = 0; j < s; i += i)
-						{
-							f[j] = false; // кратное - не простое число
-						}
+						for (j = 2 * i; j < s; j += i)
+							f[j] = false; // кратное – не простое число
 					}
 				}
-
 				// сколько оказалось простых чисел?
 				int count = 0;
 				for (i = 0; i < s; i++)
 				{
+
 					if (f[i])
 						count++; // увеличить счетчик
 				}
-
 				int[] primes = new int[count];
-
-				//поместить простые числа в рузультирующий массив
+				// поместить простые числа в результирующий массив
 				for (i = 0, j = 0; i < s; i++)
 				{
 					if (f[i]) // если простое
@@ -87,9 +78,8 @@ namespace RefactoringByMartin
 				return primes; // вернуть простые числа
 			}
 			else // maxValue < 2
-				return new int[0]; // если входные данные не корректны, 
-									// возвращаем пустой массив
-
+				return new int[0]; // если входные данные не корректны,
+			// возвращаем пустой массив
 		}
 	}
 }
