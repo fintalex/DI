@@ -5,4 +5,3 @@ C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\RefactoringByMartin\bin\Debug\nun
 C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\RefactoringByMartin\bin\Debug\nunit.framework.xml
 C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\RefactoringByMartin\obj\Debug\RefactoringByMartin.exe
 C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\RefactoringByMartin\obj\Debug\RefactoringByMartin.pdb
-C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\RefactoringByMartin\obj\Debug\RefactoringByMartin.csprojResolveAssemblyReference.cache

@@ -34,5 +34,25 @@ class GeneratePrimesTest
 		Assert.AreEqual(centArray.Length, 25);
 		Assert.AreEqual(centArray[24], 97);
 	}
+
+	[Test]
+	public void TestExhoustive()
+	{
+		for (int i = 2; i < 500; i++)
+		{
+			VerifyPrimeList(PrimeGenerator.GeneratePrimeNumbers(i));
+		}
+	}
+
+	private void VerifyPrimeList(int[] list)
+	{
+		for (int i = 0; i < list.Length; i++)
+			VerifyPrime(list[i]);
+	}
+	private void VerifyPrime(int n)
+	{
+		for (int factor = 2; factor < n; factor++)
+			Assert.IsTrue(n % factor != 0);
+	}
 }
 
