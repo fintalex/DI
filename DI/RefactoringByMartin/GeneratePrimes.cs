@@ -30,7 +30,7 @@ namespace RefactoringByMartin
 	/// <summary>
 	/// автор: Роберт К. Мартин
 	/// </summary>
-	class GeneratePrimes
+	public class GeneratePrimes
 	{
 		/// <summary>
 		/// генерирует массив простых чисел
