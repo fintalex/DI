@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BowlingGame", "BowlingGame"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingTests", "BowlingTests\BowlingTests.csproj", "{D4B6A2CA-B016-4A78-AFA1-1D42816A62C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringByMartin", "RefactoringByMartin\RefactoringByMartin.csproj", "{A1FCAF11-04A4-4718-B9B9-609A862222D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D4B6A2CA-B016-4A78-AFA1-1D42816A62C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4B6A2CA-B016-4A78-AFA1-1D42816A62C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4B6A2CA-B016-4A78-AFA1-1D42816A62C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1FCAF11-04A4-4718-B9B9-609A862222D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FCAF11-04A4-4718-B9B9-609A862222D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FCAF11-04A4-4718-B9B9-609A862222D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FCAF11-04A4-4718-B9B9-609A862222D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
