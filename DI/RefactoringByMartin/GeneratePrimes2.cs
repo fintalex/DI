@@ -16,9 +16,8 @@ namespace RefactoringByMartin2
 	///</remark>
 	public class PrimeGenerator
 	{
-		private static int s;
 		private static bool[] f;
-		private static int[] primes;
+		private static int[] result;
 
 		public static int[] GeneratePrimeNumbers(int maxValue)
 		{
@@ -29,7 +28,7 @@ namespace RefactoringByMartin2
 				InitializeSieve(maxValue);
 				Sieve();
 				LoadPrimes();
-				return primes; // вернуть простые числа
+				return result; // вернуть простые числа
 			}
 		}
 		private static void LoadPrimes()
@@ -38,28 +37,28 @@ namespace RefactoringByMartin2
 			int j;
 			// сколько оказалось простых чисел?
 			int count = 0;
-			for (i = 0; i < s; i++)
+			for (i = 0; i < f.Length; i++)
 			{
 				if (f[i])
 					count++; // увеличить счетчик
 			}
-			primes = new int[count];
+			result = new int[count];
 			// поместить простые числа в результирующий массив
-			for (i = 0, j = 0; i < s; i++)
+			for (i = 0, j = 0; i < f.Length; i++)
 			{
 				if (f[i]) // если простое
-					primes[j++] = i;
+					result[j++] = i;
 			}
 		}
 		private static void Sieve()
 		{
 			int i;
 			int j;
-			for (i = 2; i < Math.Sqrt(s) + 1; i++)
+			for (i = 2; i < Math.Sqrt(f.Length) + 1; i++)
 			{
 				if (f[i]) // если i не вычеркнуто, вычеркнуть его кратные.
 				{
-					for (j = 2 * i; j < s; j += i)
+					for (j = 2 * i; j < f.Length; j += i)
 						f[j] = false; // кратное – не простое число
 				}
 			}
@@ -67,11 +66,10 @@ namespace RefactoringByMartin2
 		private static void InitializeSieve(int maxValue)
 		{
 			// объявления
-			s = maxValue + 1; // размер массива
-			f = new bool[s];
+			f = new bool[maxValue + 1];
 			int i;
 			// инициализировать элементы массива значением true.
-			for (i = 0; i < s; i++)
+			for (i = 0; i < f.Length; i++)
 				f[i] = true;
 			// исключить заведомо не простые числа
 			f[0] = f[1] = false;

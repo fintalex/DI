@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
 //using RefactoringByMartin;
-using RefactoringByMartin2;
+//using RefactoringByMartin2;
+using RefactoringByMartin3;
 
 [TestFixture]
 class GeneratePrimesTest

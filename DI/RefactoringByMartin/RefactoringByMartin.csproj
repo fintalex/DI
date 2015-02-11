@@ -49,6 +49,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="GeneratePrimesTest.cs" />
     <Compile Include="GeneratePrimes2.cs" />
+    <Compile Include="GeneratePrimes3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
