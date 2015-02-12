@@ -8,7 +8,7 @@ namespace Bowling
 {
 	public class Game
 	{
-		private int currentFrame;
+		private int currentFrame = 1;
 		private bool isFirstThrow = true;
 		
 		
@@ -25,6 +25,21 @@ namespace Bowling
 		{
 			throws[currentThrow++] = pins;
 			score += pins;
+
+			AdjustCurrentFrame();
+		}
+
+		private void AdjustCurrentFrame()
+		{
+			if (isFirstThrow)
+			{
+				isFirstThrow = false;
+			}
+			else
+			{
+				isFirstThrow = true;
+				currentFrame++;
+			}
 		}
 
 		public int CurrentFrame

@@ -5,3 +5,4 @@ C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\bin\Debug\nunit.framework
 C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\bin\Debug\nunit.framework.xml
 C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\obj\Debug\Bowling.exe
 C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\obj\Debug\Bowling.pdb
+C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\obj\Debug\Bowling.csprojResolveAssemblyReference.cache
