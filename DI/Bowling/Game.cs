@@ -8,6 +8,10 @@ namespace Bowling
 {
 	public class Game
 	{
+		private int currentFrame;
+		private bool isFirstThrow = true;
+		
+		
 		private int score;
 		private int[] throws = new int[21];
 		private int currentThrow;
@@ -22,13 +26,27 @@ namespace Bowling
 			throws[currentThrow++] = pins;
 			score += pins;
 		}
+
+		public int CurrentFrame
+		{
+			get { return currentFrame; }
+		}
+
 		public int ScoreForFrame(int frame)
 		{
 			int ball = 0;
 			int score = 0;
 			for (int curFrame = 0; curFrame < frame; curFrame++)
 			{
-				score += throws[ball++ ] + throws[ball++ ];
+				int firstThrow = throws[ball++];
+				int secondThrow = throws[ball++];
+				int frameScore = firstThrow + secondThrow;
+
+				// для обработки спэа необходим первый бросок в следудющем фрейме
+				if (frameScore == 10)
+					score += frameScore + throws[ball];
+				else
+					score += frameScore;
 			}
 			return score;
 		}
