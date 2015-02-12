@@ -16,13 +16,13 @@ public class GameTest
 		game = new Game();
 	}
 
-	[Test]
-	public void TestOneThrow()
-	{
-		game.Add(5);
-		Assert.AreEqual(5, game.Score);
-		Assert.AreEqual(1, game.CurrentFrame);
-	}
+	//[Test]
+	//public void TestOneThrow()
+	//{
+	//	game.Add(5);
+	//	Assert.AreEqual(5, game.Score);
+	//	Assert.AreEqual(1, game.CurrentFrame);
+	//}
 	[Test]
 	public void TestTwoThrowsNoMark()
 	{
@@ -43,6 +43,7 @@ public class GameTest
 		Assert.AreEqual(18, game.ScoreForFrame(2));
 		Assert.AreEqual(3, game.CurrentFrame);
 	}
+	#region spare
 	[Test]
 	public void TestSimpleSpare()
 	{
@@ -62,7 +63,28 @@ public class GameTest
 		game.Add(2);
 		Assert.AreEqual(13, game.ScoreForFrame(1));
 		Assert.AreEqual(18, game.ScoreForFrame(2));
+		Assert.AreEqual(18, game.Score);
+		Assert.AreEqual(3, game.CurrentFrame);
+	} 
+	#endregion
+	[Test]
+	public void TestSimpleStrike()
+	{
+		game.Add(10);
+		game.Add(3);
+		game.Add(6);
+		Assert.AreEqual(19, game.ScoreForFrame(1));
+		Assert.AreEqual(28, game.Score);
 		Assert.AreEqual(3, game.CurrentFrame);
 	}
-
+	[Test]
+	public void TestPerfectGame()
+	{
+		for (int i = 0; i < 12; i++)
+		{
+			game.Add(10);
+		}
+		Assert.AreEqual(300, game.Score);
+		Assert.AreEqual(11, game.CurrentFrame);
+	}
 }
