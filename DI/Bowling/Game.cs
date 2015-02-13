@@ -16,11 +16,7 @@ namespace Bowling
 		{
 			get { return ScoreForFrame(currentFrame); }
 		}
-		public int CurrentFrame
-		{
-			get { return currentFrame; }
-		}
-
+		
 		public void Add(int pins)
 		{
 			scorer.AddThrow(pins);
