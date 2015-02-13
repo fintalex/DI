@@ -11,12 +11,10 @@ namespace Bowling
 		private int currentFrame = 1;
 		private bool isFirstThrow = true;
 		public Scorer scorer = new Scorer();
-		//private int[] throws = new int[21];
-		//private int currentThrow;
 
 		public int Score
 		{
-			get { return ScoreForFrame(CurrentFrame -1); }
+			get { return ScoreForFrame(currentFrame); }
 		}
 		public int CurrentFrame
 		{
@@ -30,16 +28,19 @@ namespace Bowling
 		}
 		private void AdjustCurrentFrame(int pins)
 		{
-			if (isFirstThrow)
-			{
-				if (AdjustFrameForStrike(pins) == false) 
-					isFirstThrow = false;
-			}
-			else
-			{
-				isFirstThrow = true;
+			if (LastBallInFlame(pins))
 				AdvanceFrame();
-			}			
+			else
+				isFirstThrow = false;
+		}
+
+		private bool LastBallInFlame(int pins)
+		{
+			return Strike(pins) || (!isFirstThrow);
+		}
+		private bool Strike(int pins)
+		{
+			return (isFirstThrow && pins == 10); 
 		}
 		private bool AdjustFrameForStrike(int pins)
 		{
@@ -54,8 +55,8 @@ namespace Bowling
 		private void AdvanceFrame()
 		{
 			currentFrame++;
-			if (currentFrame > 11)
-				currentFrame = 11;
+			if (currentFrame > 10)
+				currentFrame = 10;
 		}
 
 		public int ScoreForFrame(int theFrame)

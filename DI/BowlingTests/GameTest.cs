@@ -85,7 +85,7 @@ public class GameTest
 			game.Add(10);
 		}
 		Assert.AreEqual(300, game.Score);
-		Assert.AreEqual(11, game.CurrentFrame);
+		Assert.AreEqual(10, game.CurrentFrame);
 	}
 	[Test]
 	public void TestEndOfArray()
