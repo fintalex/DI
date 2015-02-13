@@ -98,7 +98,7 @@ public class GameTest
 		game.Add(2);
 		game.Add(8); // спэф в 10-м фрейме
 		game.Add(10); // страйе в последней позиции массива
-		Assert.AreEqual(20, game.Score);
+		Assert.AreEqual(20, game.ScoreForFrame(10));
 	}
 	[Test]
 	public void TestSampleGame()
