@@ -3,3 +3,9 @@ C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\AgilePrinciplesPatterns\bin\Debug
 C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\AgilePrinciplesPatterns\bin\Debug\AgilePrinciplesPatterns.pdb
 C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\AgilePrinciplesPatterns\obj\Debug\AgilePrinciplesPatterns.exe
 C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\AgilePrinciplesPatterns\obj\Debug\AgilePrinciplesPatterns.pdb
+C:\Users\Алексей\Documents\GitHub\DI\DI\AgilePrinciplesPatterns\bin\Debug\AgilePrinciplesPatterns.exe.config
+C:\Users\Алексей\Documents\GitHub\DI\DI\AgilePrinciplesPatterns\bin\Debug\AgilePrinciplesPatterns.exe
+C:\Users\Алексей\Documents\GitHub\DI\DI\AgilePrinciplesPatterns\bin\Debug\AgilePrinciplesPatterns.pdb
+C:\Users\Алексей\Documents\GitHub\DI\DI\AgilePrinciplesPatterns\obj\Debug\AgilePrinciplesPatterns.exe
+C:\Users\Алексей\Documents\GitHub\DI\DI\AgilePrinciplesPatterns\obj\Debug\AgilePrinciplesPatterns.pdb
+C:\Users\Алексей\Documents\GitHub\DI\DI\AgilePrinciplesPatterns\obj\Debug\AgilePrinciplesPatterns.csprojResolveAssemblyReference.cache

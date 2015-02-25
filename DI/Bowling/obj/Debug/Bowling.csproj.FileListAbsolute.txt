@@ -6,3 +6,11 @@ C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\bin\Debug\nunit.framework
 C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\obj\Debug\Bowling.exe
 C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\obj\Debug\Bowling.pdb
 C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\Bowling\obj\Debug\Bowling.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\DI\DI\Bowling\bin\Debug\Bowling.exe.config
+C:\Users\Алексей\Documents\GitHub\DI\DI\Bowling\bin\Debug\Bowling.exe
+C:\Users\Алексей\Documents\GitHub\DI\DI\Bowling\bin\Debug\Bowling.pdb
+C:\Users\Алексей\Documents\GitHub\DI\DI\Bowling\bin\Debug\nunit.framework.dll
+C:\Users\Алексей\Documents\GitHub\DI\DI\Bowling\bin\Debug\nunit.framework.xml
+C:\Users\Алексей\Documents\GitHub\DI\DI\Bowling\obj\Debug\Bowling.exe
+C:\Users\Алексей\Documents\GitHub\DI\DI\Bowling\obj\Debug\Bowling.pdb
+C:\Users\Алексей\Documents\GitHub\DI\DI\Bowling\obj\Debug\Bowling.csprojResolveAssemblyReference.cache

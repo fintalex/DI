@@ -5,3 +5,11 @@ C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\RefactoringByMartin\bin\Debug\nun
 C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\RefactoringByMartin\bin\Debug\nunit.framework.xml
 C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\RefactoringByMartin\obj\Debug\RefactoringByMartin.exe
 C:\Users\s.harchenko\Documents\GitHub\SOLID\DI\RefactoringByMartin\obj\Debug\RefactoringByMartin.pdb
+C:\Users\Алексей\Documents\GitHub\DI\DI\RefactoringByMartin\bin\Debug\RefactoringByMartin.exe.config
+C:\Users\Алексей\Documents\GitHub\DI\DI\RefactoringByMartin\bin\Debug\RefactoringByMartin.exe
+C:\Users\Алексей\Documents\GitHub\DI\DI\RefactoringByMartin\bin\Debug\RefactoringByMartin.pdb
+C:\Users\Алексей\Documents\GitHub\DI\DI\RefactoringByMartin\bin\Debug\nunit.framework.dll
+C:\Users\Алексей\Documents\GitHub\DI\DI\RefactoringByMartin\bin\Debug\nunit.framework.xml
+C:\Users\Алексей\Documents\GitHub\DI\DI\RefactoringByMartin\obj\Debug\RefactoringByMartin.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\DI\DI\RefactoringByMartin\obj\Debug\RefactoringByMartin.exe
+C:\Users\Алексей\Documents\GitHub\DI\DI\RefactoringByMartin\obj\Debug\RefactoringByMartin.pdb
